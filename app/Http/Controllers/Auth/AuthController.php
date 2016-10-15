@@ -11,7 +11,7 @@ class AuthController extends Controller
 
     public function __construct()
     {
-        $this->redirectPath = route('home');
+        $this->redirectPath = route('/');
     }
 
     /**
