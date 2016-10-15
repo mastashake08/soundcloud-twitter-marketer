@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 Route::get('auth/soundcloud', 'Auth\AuthController@redirectToProvider');
 Route::get('auth/soundcloud/callback', 'Auth\AuthController@handleProviderCallback');
 Route::get('auth/twitter', 'Auth\AuthController@redirectToTwitterProvider');
