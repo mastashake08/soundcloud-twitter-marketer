@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('auth/soundcloud', 'Auth\AuthController@redirectToProvider');
+Route::get('auth/soundcloud/callback', 'Auth\AuthController@handleProviderCallback');

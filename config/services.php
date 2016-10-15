@@ -34,5 +34,9 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
-
+    'soundcloud' => [
+    	'client_id' => env('SOUNDCLOUD_KEY'),
+    	'client_secret' => env('SOUNDCLOUD_SECRET'),
+    	'redirect' => env('SOUNDCLOUD_REDIRECT_URI'),  
+    ], 
 ];
