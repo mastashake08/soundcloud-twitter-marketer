@@ -68,7 +68,7 @@
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
-                    <a href="{{ url('/login') }}">Login With SoundCloud</a>
+                    <a href="{{ url('/auth/twitter') }}">Login With Twitter</a>
                 </div>
             @endif
 
