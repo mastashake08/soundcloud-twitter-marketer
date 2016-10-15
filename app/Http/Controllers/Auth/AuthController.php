@@ -1,4 +1,4 @@
-<?php
+\<?php
 
 namespace App\Http\Controllers;
 use Socialite;
@@ -7,7 +7,6 @@ use App\Http\Controllers\Controller;
 class AuthController extends Controller
 {
 
-	 use AuthenticatesAndRegistersUsers, ThrottlesLogins;
 
     public function __construct()
     {
