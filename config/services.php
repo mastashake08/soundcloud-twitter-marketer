@@ -38,5 +38,10 @@ return [
     	'client_id' => env('SOUNDCLOUD_KEY'),
     	'client_secret' => env('SOUNDCLOUD_SECRET'),
     	'redirect' => env('SOUNDCLOUD_REDIRECT_URI'),  
-    ], 
+    ],
+   'twitter' => [
+    'client_id' => env('TWITTER_KEY'),
+    'client_secret' => env('TWITTER_SECRET'),
+    'redirect' => env('TWITTER_REDIRECT_URI'),  
+],  
 ];
