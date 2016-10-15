@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 Route::get('auth/soundcloud', 'Auth\AuthController@redirectToProvider');
 Route::get('auth/soundcloud/callback', 'Auth\AuthController@handleProviderCallback');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
