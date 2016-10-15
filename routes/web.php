@@ -16,6 +16,8 @@ Route::get('/', function () {
 });
 Route::get('auth/soundcloud', 'Auth\AuthController@redirectToProvider');
 Route::get('auth/soundcloud/callback', 'Auth\AuthController@handleProviderCallback');
+Route::get('auth/twitter', 'Auth\AuthController@redirectToTwitterProvider');
+Route::get('auth/twitter/callback', 'Auth\AuthController@handleTwitterProviderCallback');
 
 Auth::routes();
 
